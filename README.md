@@ -131,16 +131,16 @@ Ensure that you have Docker installed localy.
 
 FrontEnd
 
-    1.  Open the Command prompt navigate to the frontend folder
-
-docker build --progress=plain -t cinecritic-fe . 2. After successful image generation, start the container using the following command
-docker run -p 3000:3000 cinecritic-fe
+    	1. Open the Command prompt navigate to the frontend folder
+	docker build --progress=plain -t cinecritic-fe . 
+ 	2. After successful image generation, start the container using the following command
+		docker run -p 3000:3000 cinecritic-fe
 Backend
 
-1.  Open the Command prompt navigate to the backend folder
-    docker build --progress=plain -t cinecritic-be .
-2.  After successful image generation, start the container using the following command
-    docker run -p 8080:8080 cinecritic-be
+	1.  Open the Command prompt navigate to the backend folder
+    		docker build --progress=plain -t cinecritic-be .
+	2.  After successful image generation, start the container using the following command
+    		docker run -p 8080:8080 cinecritic-be
 
 #Test
 
