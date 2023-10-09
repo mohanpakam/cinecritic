@@ -92,6 +92,9 @@ public class UserService {
     }
 
     public void addToReviewed(User user, String imdbId){
+        if(user.getReviewedList() == null){
+            user.setReviewedList(new ArrayList<>());
+        }
         user.getReviewedList().add(imdbId);
         userRepository.save(user);
     }

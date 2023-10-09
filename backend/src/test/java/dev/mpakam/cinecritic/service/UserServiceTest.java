@@ -51,12 +51,15 @@ public class UserServiceTest {
         User user = User.builder()
                 .name(userDto.getName())
                 .emailId(userDto.getEmailId())
+                .watchList(new ArrayList<>())
+                .reviewedList(new ArrayList<>())
                 .userId(new ObjectId("6522370e3e317a55629b503c"))
                 .build();
 
         when(userRepository.findByEmailId(userDto.getEmailId())).thenReturn(Mono.empty());
+        when(userRepository.findById(any(ObjectId.class))).thenReturn(Mono.just(user));
         when(userRepository.save(any(User.class))).thenReturn(Mono.just(user));
-
+        when(movieRepository.findByImdbIdIn(any(List.class))).thenReturn(Flux.just(new Movie()));
         StepVerifier.create(userService.saveUser(userDto))
                 .expectNextMatches(savedUserDto ->
                         savedUserDto.getName().equals(userDto.getName()) &&
