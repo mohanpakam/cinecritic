@@ -144,7 +144,11 @@ Backend
 
 #Test
 
-1. Open the browser and navigate to http://localhost:3000/
-2. Take it for a test drive
+	1. Open the browser and navigate to http://localhost:3000/
+	2. Take it for a test drive
 
 # Comments
+
+	1. Add JWT based Backend Authorization
+ 	2. Add End to End tests for Front End using Puppeteer
+  	3. Add Caching for Backend
