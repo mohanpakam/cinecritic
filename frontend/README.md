@@ -1,3 +1,23 @@
+# Table of Contents
+  1. [Screenshots](https://github.com/mohanpakam/cinecritic/edit/main/frontend/README.md#screenshots-of-the-application)
+  2. [Getting Started](https://github.com/mohanpakam/cinecritic/edit/main/frontend/README.md#screenshots-of-the-application)
+
+# Screenshots of the application
+Home Screen (Guest)
+![image](https://github.com/mohanpakam/cinecritic/assets/28537429/46e5e780-2429-4635-aea3-1e13980c7c32)
+Search Screen (Guest)
+![image](https://github.com/mohanpakam/cinecritic/assets/28537429/cc13bf46-3893-495a-af52-21c035aba02a)
+Home Screen (User)
+![image](https://github.com/mohanpakam/cinecritic/assets/28537429/71059f6b-bf33-405d-9bb4-da5d1896da46)
+Review Screen
+![image](https://github.com/mohanpakam/cinecritic/assets/28537429/06608f90-8390-4954-9c3c-cb1c0ea42b59)
+Add Review Screen
+![image](https://github.com/mohanpakam/cinecritic/assets/28537429/abf203b8-7bd6-4b1f-a34e-ffff727277b8)
+Watchlist Screen
+![image](https://github.com/mohanpakam/cinecritic/assets/28537429/ed059568-ad28-4f60-aae3-1846a84d850e)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
