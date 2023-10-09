@@ -110,5 +110,24 @@ Certainly! Here's a cleaner version of your key notes:
 
 
 # Installation
+Ensure that you have Docker installed localy.
+
+FrontEnd
+
+	1.  Open the Command prompt navigate to the frontend folder
+ 		docker build --progress=plain -t cinecritic-fe .
+ 	2. After successful image generation, start the container using the following command
+		docker run -p 3000:3000 cinecritic-fe
+Backend
+
+  	1.  Open the Command prompt navigate to the **backend** folder
+ 		docker build --progress=plain -t cinecritic-be .
+ 	2. After successful image generation, start the container using the following command
+		docker run -p 8080:8080 cinecritic-be
+
+#Test
+
+ 	1. Open the browser and navigate to http://localhost:3000/
+  	2. Take it for a test drive
 
 # Comments
