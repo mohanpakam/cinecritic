@@ -1,3 +1,12 @@
+# Index
+
+1. [Requirments](https://github.com/mohanpakam/cinecritic/edit/main/README.md#requirements)
+2. [Project Summary](https://github.com/mohanpakam/cinecritic/edit/main/README.md#project-summary)
+3. [Technology Stack](https://github.com/mohanpakam/cinecritic/edit/main/README.md#technology-stack)
+4. [Note Worthy Notes](https://github.com/mohanpakam/cinecritic/edit/main/README.md#note-worthy-mentions)
+5. [Installation](https://github.com/mohanpakam/cinecritic/edit/main/README.md#installation)
+6. [Comments](https://github.com/mohanpakam/cinecritic/edit/main/README.md#installation)
+
 # Requirements
 
     Please create and share via github a project that implements a simple CRUD system. That is to say, create a UI that connects to middleware that connects to a data store, and is capable of creating, updating, deleting and listing data.
@@ -20,7 +29,7 @@
     Below are the requirements of the project
     Here are the revised and corrected sentences:
 
-# Scope of Work
+# Project Summary
 
 Design and develop a "Movie Review/Watchlist" Web application where a User can Login using Google Authentication, Search for Movies, Leave a review and Maintain a Watchlist of Favourite movies.
 
